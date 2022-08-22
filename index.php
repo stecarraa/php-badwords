@@ -29,6 +29,15 @@ $myCensoredPhrase = str_replace($badWord, $blip, $myPhrase)
 </p>
 <div>
 <p>In questo paragrafo ci sono <?php echo strlen($myPhrase)?> brutte parole</p></div>
+
+<h1>
+    My Favorite Quote Censored:
+</h1>
+<p>
+    <?php echo $myCensoredPhrase?>
+</p>
+<div>
+<p>In questo paragrafo ci sono <?php echo strlen($myCensoredPhrase)?> brutte parole</p></div>
     
 </body>
 </html>
